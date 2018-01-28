@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38093489201D34F000D1A32B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38093488201D34F000D1A32B /* AppDelegate.swift */; };
+		3809348B201D34F000D1A32B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3809348A201D34F000D1A32B /* MasterViewController.swift */; };
+		3809348D201D34F000D1A32B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3809348C201D34F000D1A32B /* DetailViewController.swift */; };
+		38093490201D34F000D1A32B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3809348E201D34F000D1A32B /* Main.storyboard */; };
+		38093492201D34F000D1A32B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38093491201D34F000D1A32B /* Assets.xcassets */; };
+		38093495201D34F000D1A32B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38093493201D34F000D1A32B /* LaunchScreen.storyboard */; };
+		380934A0201D34F000D1A32B /* AkulaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3809349F201D34F000D1A32B /* AkulaTests.swift */; };
+		380934AB201D34F000D1A32B /* AkulaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380934AA201D34F000D1A32B /* AkulaUITests.swift */; };
+		385A1853201E2C4F0001401C /* Akula.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 385A1851201E2C4F0001401C /* Akula.xcdatamodeld */; };
+		385A1854201E2C4F0001401C /* Akula.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 385A1851201E2C4F0001401C /* Akula.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3809349C201D34F000D1A32B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3809347D201D34F000D1A32B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38093484201D34F000D1A32B;
+			remoteInfo = Akula;
+		};
+		380934A7201D34F000D1A32B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3809347D201D34F000D1A32B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38093484201D34F000D1A32B;
+			remoteInfo = Akula;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38093485201D34F000D1A32B /* Akula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Akula.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38093488201D34F000D1A32B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3809348A201D34F000D1A32B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		3809348C201D34F000D1A32B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3809348F201D34F000D1A32B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38093491201D34F000D1A32B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38093494201D34F000D1A32B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38093496201D34F000D1A32B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3809349B201D34F000D1A32B /* AkulaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AkulaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3809349F201D34F000D1A32B /* AkulaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkulaTests.swift; sourceTree = "<group>"; };
+		380934A1201D34F000D1A32B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		380934A6201D34F000D1A32B /* AkulaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AkulaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		380934AA201D34F000D1A32B /* AkulaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkulaUITests.swift; sourceTree = "<group>"; };
+		380934AC201D34F000D1A32B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		385A1852201E2C4F0001401C /* Akula.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Akula.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38093482201D34F000D1A32B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38093498201D34F000D1A32B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		380934A3201D34F000D1A32B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3809347C201D34F000D1A32B = {
+			isa = PBXGroup;
+			children = (
+				38093487201D34F000D1A32B /* Akula */,
+				3809349E201D34F000D1A32B /* AkulaTests */,
+				380934A9201D34F000D1A32B /* AkulaUITests */,
+				38093486201D34F000D1A32B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38093486201D34F000D1A32B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38093485201D34F000D1A32B /* Akula.app */,
+				3809349B201D34F000D1A32B /* AkulaTests.xctest */,
+				380934A6201D34F000D1A32B /* AkulaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38093487201D34F000D1A32B /* Akula */ = {
+			isa = PBXGroup;
+			children = (
+				385A184D201E2C300001401C /* Data */,
+				385A1848201E2B4E0001401C /* AppSupport */,
+				385A1849201E2B990001401C /* ViewControllers */,
+				385A184C201E2C110001401C /* GUI */,
+			);
+			path = Akula;
+			sourceTree = "<group>";
+		};
+		3809349E201D34F000D1A32B /* AkulaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3809349F201D34F000D1A32B /* AkulaTests.swift */,
+				380934A1201D34F000D1A32B /* Info.plist */,
+			);
+			path = AkulaTests;
+			sourceTree = "<group>";
+		};
+		380934A9201D34F000D1A32B /* AkulaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				380934AA201D34F000D1A32B /* AkulaUITests.swift */,
+				380934AC201D34F000D1A32B /* Info.plist */,
+			);
+			path = AkulaUITests;
+			sourceTree = "<group>";
+		};
+		385A1848201E2B4E0001401C /* AppSupport */ = {
+			isa = PBXGroup;
+			children = (
+				38093496201D34F000D1A32B /* Info.plist */,
+				38093488201D34F000D1A32B /* AppDelegate.swift */,
+			);
+			path = AppSupport;
+			sourceTree = "<group>";
+		};
+		385A1849201E2B990001401C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				385A184A201E2BA90001401C /* PrimeTVC */,
+				385A184B201E2BBE0001401C /* MapViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		385A184A201E2BA90001401C /* PrimeTVC */ = {
+			isa = PBXGroup;
+			children = (
+				3809348A201D34F000D1A32B /* MasterViewController.swift */,
+			);
+			path = PrimeTVC;
+			sourceTree = "<group>";
+		};
+		385A184B201E2BBE0001401C /* MapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3809348C201D34F000D1A32B /* DetailViewController.swift */,
+			);
+			path = MapViewController;
+			sourceTree = "<group>";
+		};
+		385A184C201E2C110001401C /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				3809348E201D34F000D1A32B /* Main.storyboard */,
+				38093491201D34F000D1A32B /* Assets.xcassets */,
+				38093493201D34F000D1A32B /* LaunchScreen.storyboard */,
+			);
+			path = GUI;
+			sourceTree = "<group>";
+		};
+		385A184D201E2C300001401C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				385A184E201E2C300001401C /* Model */,
+				385A184F201E2C300001401C /* Control */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		385A184E201E2C300001401C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				385A1851201E2C4F0001401C /* Akula.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		385A184F201E2C300001401C /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				385A1850201E2C300001401C /* Abstract */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		385A1850201E2C300001401C /* Abstract */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Abstract;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38093484201D34F000D1A32B /* Akula */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 380934AF201D34F000D1A32B /* Build configuration list for PBXNativeTarget "Akula" */;
+			buildPhases = (
+				38093481201D34F000D1A32B /* Sources */,
+				38093482201D34F000D1A32B /* Frameworks */,
+				38093483201D34F000D1A32B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Akula;
+			productName = Akula;
+			productReference = 38093485201D34F000D1A32B /* Akula.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3809349A201D34F000D1A32B /* AkulaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 380934B2201D34F000D1A32B /* Build configuration list for PBXNativeTarget "AkulaTests" */;
+			buildPhases = (
+				38093497201D34F000D1A32B /* Sources */,
+				38093498201D34F000D1A32B /* Frameworks */,
+				38093499201D34F000D1A32B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3809349D201D34F000D1A32B /* PBXTargetDependency */,
+			);
+			name = AkulaTests;
+			productName = AkulaTests;
+			productReference = 3809349B201D34F000D1A32B /* AkulaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		380934A5201D34F000D1A32B /* AkulaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 380934B5201D34F000D1A32B /* Build configuration list for PBXNativeTarget "AkulaUITests" */;
+			buildPhases = (
+				380934A2201D34F000D1A32B /* Sources */,
+				380934A3201D34F000D1A32B /* Frameworks */,
+				380934A4201D34F000D1A32B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				380934A8201D34F000D1A32B /* PBXTargetDependency */,
+			);
+			name = AkulaUITests;
+			productName = AkulaUITests;
+			productReference = 380934A6201D34F000D1A32B /* AkulaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3809347D201D34F000D1A32B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Kenn Villegas";
+				TargetAttributes = {
+					38093484201D34F000D1A32B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3809349A201D34F000D1A32B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38093484201D34F000D1A32B;
+					};
+					380934A5201D34F000D1A32B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38093484201D34F000D1A32B;
+					};
+				};
+			};
+			buildConfigurationList = 38093480201D34F000D1A32B /* Build configuration list for PBXProject "Akula" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3809347C201D34F000D1A32B;
+			productRefGroup = 38093486201D34F000D1A32B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38093484201D34F000D1A32B /* Akula */,
+				3809349A201D34F000D1A32B /* AkulaTests */,
+				380934A5201D34F000D1A32B /* AkulaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38093483201D34F000D1A32B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38093495201D34F000D1A32B /* LaunchScreen.storyboard in Resources */,
+				38093492201D34F000D1A32B /* Assets.xcassets in Resources */,
+				38093490201D34F000D1A32B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38093499201D34F000D1A32B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		380934A4201D34F000D1A32B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38093481201D34F000D1A32B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385A1853201E2C4F0001401C /* Akula.xcdatamodeld in Sources */,
+				3809348D201D34F000D1A32B /* DetailViewController.swift in Sources */,
+				3809348B201D34F000D1A32B /* MasterViewController.swift in Sources */,
+				38093489201D34F000D1A32B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38093497201D34F000D1A32B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385A1854201E2C4F0001401C /* Akula.xcdatamodeld in Sources */,
+				380934A0201D34F000D1A32B /* AkulaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		380934A2201D34F000D1A32B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380934AB201D34F000D1A32B /* AkulaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3809349D201D34F000D1A32B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38093484201D34F000D1A32B /* Akula */;
+			targetProxy = 3809349C201D34F000D1A32B /* PBXContainerItemProxy */;
+		};
+		380934A8201D34F000D1A32B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38093484201D34F000D1A32B /* Akula */;
+			targetProxy = 380934A7201D34F000D1A32B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3809348E201D34F000D1A32B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3809348F201D34F000D1A32B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38093493201D34F000D1A32B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38093494201D34F000D1A32B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		380934AD201D34F000D1A32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		380934AE201D34F000D1A32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		380934B0201D34F000D1A32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ75G5YK98;
+				INFOPLIST_FILE = Akula/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Axlotol.Akula;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		380934B1201D34F000D1A32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ75G5YK98;
+				INFOPLIST_FILE = Akula/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Axlotol.Akula;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		380934B3201D34F000D1A32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ75G5YK98;
+				INFOPLIST_FILE = AkulaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Axlotol.AkulaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Akula.app/Akula";
+			};
+			name = Debug;
+		};
+		380934B4201D34F000D1A32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ75G5YK98;
+				INFOPLIST_FILE = AkulaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Axlotol.AkulaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Akula.app/Akula";
+			};
+			name = Release;
+		};
+		380934B6201D34F000D1A32B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ75G5YK98;
+				INFOPLIST_FILE = AkulaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Axlotol.AkulaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Akula;
+			};
+			name = Debug;
+		};
+		380934B7201D34F000D1A32B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LQ75G5YK98;
+				INFOPLIST_FILE = AkulaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Axlotol.AkulaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Akula;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38093480201D34F000D1A32B /* Build configuration list for PBXProject "Akula" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380934AD201D34F000D1A32B /* Debug */,
+				380934AE201D34F000D1A32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		380934AF201D34F000D1A32B /* Build configuration list for PBXNativeTarget "Akula" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380934B0201D34F000D1A32B /* Debug */,
+				380934B1201D34F000D1A32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		380934B2201D34F000D1A32B /* Build configuration list for PBXNativeTarget "AkulaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380934B3201D34F000D1A32B /* Debug */,
+				380934B4201D34F000D1A32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		380934B5201D34F000D1A32B /* Build configuration list for PBXNativeTarget "AkulaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				380934B6201D34F000D1A32B /* Debug */,
+				380934B7201D34F000D1A32B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		385A1851201E2C4F0001401C /* Akula.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				385A1852201E2C4F0001401C /* Akula.xcdatamodel */,
+			);
+			currentVersion = 385A1852201E2C4F0001401C /* Akula.xcdatamodel */;
+			path = Akula.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3809347D201D34F000D1A32B /* Project object */;
+}
